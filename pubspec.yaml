@@ -1,0 +1,26 @@
+name: pretty_dating_app
+description: A Flutter-based dating app with M-Pesa and international payments.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.8.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.7.0
+  mpesa_flutter_plugin: ^1.5.0
+  http: ^1.1.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
